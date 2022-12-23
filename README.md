@@ -1,10 +1,10 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authorization-bypass/main/authorization-bypass.png"></p>
 
-An adversary may perform unauthorized functions by bypassing or abusing the target authorization mechanism.
+A threat actor may perform unauthorized functions by bypassing or abusing the target authorization mechanism
 
 ## Example #1
 1. Developer forgets to remove an in-house debugging mechanism associated with user-agent
-2. Adversary finds out changing the user-agent header to debug grants different or higher privileges
+2. A threat actor finds out changing the user-agent header to debug grants different or higher privileges
 
 ## Impact
 Vary
