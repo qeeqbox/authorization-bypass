@@ -19,7 +19,6 @@ Authorization determines what authenticated users are permitted to do within an 
 - A user could directly access the page at `https://qeeqbox.com/admin` if the server fails to enforce authorization.
 
 ## Impact of Authorization Bypass
-Successful Authorization Bypass can enable an attacker to:
 - Unauthorized access to sensitive data
 - Compromise of user accounts
 - Privilege escalation
@@ -29,7 +28,6 @@ Successful Authorization Bypass can enable an attacker to:
 - Regulatory and financial consequences
 
 ## Authorization Bypass Mitigation Strategies
-To prevent Authorization Bypass:
 - Implement Server-Side Authorization Checks: Always perform validation on the server side; never rely solely on client-side validation.
 - Use Role-Based Access Control (RBAC): Clearly define roles and associated permissions.
 - Apply the Principle of Least Privilege: Users should only receive the minimum permissions required to perform their tasks.
