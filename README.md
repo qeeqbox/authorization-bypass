@@ -29,7 +29,7 @@ Successful Authorization Bypass can enable an attacker to:
 - Regulatory and financial consequences
 
 ## Authorization Bypass Mitigation Strategies
-To prevent Authorization Bypass attacks:
+To prevent Authorization Bypass:
 - Implement Server-Side Authorization Checks: Always perform validation on the server side; never rely solely on client-side validation.
 - Use Role-Based Access Control (RBAC): Clearly define roles and associated permissions.
 - Apply the Principle of Least Privilege: Users should only receive the minimum permissions required to perform their tasks.
