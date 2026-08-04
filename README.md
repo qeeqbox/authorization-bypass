@@ -6,19 +6,19 @@ Authorization Bypass is a security vulnerability that occurs when an application
 ## Authorization
 Authorization determines what authenticated users are permitted to do within an application. When authorization controls are improperly implemented, attackers may gain access to restricted data, execute unauthorized actions, or escalate their privileges.
 
-## How Authorization Bypass Works:
+## How Authorization Bypass Works
 1. Identifying Access Control Weaknesses: Attackers examine the application to discover areas where authorization checks are either missing or incorrectly implemented. 
 2. Manipulating Requests: Attackers modify requests to access resources they should not have permission to access. Examples include:
 3. Exploiting Missing Authorization Checks: If the application only verifies that a user is logged in without validating their permissions, the attacker may gain unauthorized access.
 
-## Common Authorization Bypass Techniques:
+## Common Authorization Bypass Techniques
 - Parameter Manipulation: Attackers modify parameters within requests to access unauthorized resources. If the application does not verify ownership, attackers may access another user's account.
 - Insecure Direct Object Reference (IDOR): Applications may expose internal object identifiers without properly checking for authorization, enabling unauthorized access.
 - Weak Access Control Logic: Poorly implemented authorization checks can allow users to perform actions outside their designated permissions.
 - Privilege Escalation: Attackers may gain higher privileges than intended. For instance, if an application hides administrative features in the interface but does not restrict direct access, unauthorized users could access them. For example:
 - A user could directly access the page at `https://qeeqbox.com/admin` if the server fails to enforce authorization.
 
-## Impact of Authorization Bypass
+## Authorization Bypass Impact
 - Unauthorized access to sensitive data
 - Compromise of user accounts
 - Privilege escalation
@@ -27,7 +27,7 @@ Authorization determines what authenticated users are permitted to do within an 
 - Exposure of confidential information
 - Regulatory and financial consequences
 
-## Authorization Bypass Mitigation Strategies
+## Authorization Bypass Mitigation
 - Implement Server-Side Authorization Checks: Always perform validation on the server side; never rely solely on client-side validation.
 - Use Role-Based Access Control (RBAC): Clearly define roles and associated permissions.
 - Apply the Principle of Least Privilege: Users should only receive the minimum permissions required to perform their tasks.
