@@ -1,7 +1,7 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authorization-bypass/main/content/authorization-bypass.svg"></p>
 
 ## Authorization Bypass
-An Authorization Bypass occurs when an attacker exploits vulnerabilities in an application's access control mechanisms to gain unauthorized access to resources or perform actions beyond their allowed permissions.
+Authorization Bypass is a vulnerability that occurs when an application fails to properly enforce access controls, allowing a user to access resources or perform actions beyond their assigned permissions.
 
 ## Authorization
 Authorization determines what authenticated users are permitted to do within an application. When authorization controls are improperly implemented, attackers may gain access to restricted data, execute unauthorized actions, or escalate their privileges.
@@ -19,7 +19,7 @@ Authorization determines what authenticated users are permitted to do within an 
 - A user could directly access the page at `https://qeeqbox.com/admin` if the server fails to enforce authorization.
 
 ## Impact of Authorization Bypass
-Successful Authorization Bypass attacks can enable an attacker to:
+Successful Authorization Bypass can enable an attacker to:
 - Unauthorized access to sensitive data
 - Compromise of user accounts
 - Privilege escalation
